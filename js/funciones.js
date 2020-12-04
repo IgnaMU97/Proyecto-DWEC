@@ -67,32 +67,11 @@ function rellenar(){
     
     var campeon="<p>Campeon</p><img src=\"img/champs/ahri.png\"></br></br>";
     var rol = "<p>Rol</p><img src=\"img/roles/mid.jpg\"></br></br>";
+    /*He intentado hacerlo de la siguiente forma, pero me daba fallos que no he sabido arreglar. */ 
     //var sItems = "<p>Items</p>"+arrayItems[0]+arrayItems[1]+arrayItems[2]+arrayItems[3]+arrayItems[4]"</br></br>";
     var sItems = "<p>Items</p><img id=\"Morellonomicón\" src=\"img/items/morelo.png\"><img id=\"Arcoscudo Inmortal\" src=\"img/items/qwer.png\"><img id=\"Eclipse\" src=\"img/items/eclipse.png\"><img id=\"Velo del Hada\" src=\"img/items/banshee.png\"><img id=\"Protocinturón Hextech\" src=\"img/items/protobelt.png\"></br></br>";
     //var sRunas = "<p>Runas</p>"+arrayRunas[0]+""+arrayRunas[1]+"";
     var sRunas = "<p>Runas</p><img src=\"img/runas/inspiracion.png\"><img src=\"img/runas/resolve.png\">";
-    document.getElementById("champ").innerHTML = campeon;
-    document.getElementById("rol").innerHTML = rol;    
-    document.getElementById("items").innerHTML = sItems;  
-    document.getElementById("runas").innerHTML = sRunas;
-}
-
-function rellenar2(){
-    var campeon="<p>Campeon</p><img src=\"img/champs/kata.png\"></br></br>";
-    var rol = "<p>Rol</p><img src=\"img/roles/top.jpg\"></br></br>";
-    var sItems = "<p>Items</p><img src=\"img/items/luden.png\"><img src=\"img/items/botrk.png\"><img src=\"img/items/eclipse.png\"><img src=\"img/items/bc.png\"><img src=\"img/items/yelmo.png\"></br></br>";
-    var sRunas = "<p>Runas</p><img src=\"img/runas/domination.png\"><img src=\"img/runas/sorcery.png\">";
-    document.getElementById("champ").innerHTML = campeon;
-    document.getElementById("rol").innerHTML = rol;    
-    document.getElementById("items").innerHTML = sItems;  
-    document.getElementById("runas").innerHTML = sRunas;
-}
-
-function rellenar3(){
-    var campeon="<p>Campeon</p><img src=\"img/champs/ori.png\"></br></br>";
-    var rol = "<p>Rol</p><img src=\"img/roles/jgl.jpg\"></br></br>";
-    var sItems = "<p>Items</p><img src=\"img/items/morelo.png\"><img src=\"img/items/ardent.png\"><img src=\"img/items/galeforce.png\"><img src=\"img/items/luden.png\"><img src=\"img/items/arcangel.png\"></br></br>";
-    var sRunas = "<p>Runas</p><img src=\"img/runas/sorcery.png\"><img src=\"img/runas/precision.png\">";
     document.getElementById("champ").innerHTML = campeon;
     document.getElementById("rol").innerHTML = rol;    
     document.getElementById("items").innerHTML = sItems;  
