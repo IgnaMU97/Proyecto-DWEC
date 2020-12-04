@@ -1,0 +1,84 @@
+@import url(//db.onlinewebfonts.com/c/c8e8fcd5d85d9b587022fe0a79809b73?family=Friz+Quadrata);
+*{
+    font-family: "Friz Quadrata";
+    background-color: rgb(223, 230, 238);
+}
+
+#logo{
+    width: 350px;
+    height: 350px;
+    padding-left: 39%;
+}
+
+#login{
+    margin-left: 93%;
+    margin-top: -250px;
+    padding-bottom: 130px;
+    font-size: 13px;
+}
+#logoTwitter{
+    width: 30px;
+    height: 30px;
+}
+#logoInsta{
+    width: 30px;
+    height: 30px;
+}
+#logoLinkedin{
+    width: 30px;
+    height: 30px;
+}
+.dcha{
+    padding-left: 66%;
+    padding-bottom: 10px;
+    margin-bottom: 36px;
+    margin-top: -169px;
+}
+
+.dcha>a{
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+.dcha>img{
+    margin-right: 10px;
+}
+
+.izqda{
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-right: 70%;
+    text-align: center;
+}
+
+#formulario{
+    padding-left: 39%;
+    padding-top: 80px;
+}
+
+#user{
+    padding-left: 57px;
+    padding-bottom: 20px;
+}
+
+#divPw{
+    padding-left: 24px;
+}
+
+#divVerPw{
+    padding-top: 2%;
+    padding-bottom: 30px;
+}
+
+#btnEnviar{
+    margin-top: 30px;
+    margin-left: 110px;
+    font-size: 19px;
+}
+
+#errores{
+    color: red;
+    padding-top: 3%;
+    padding-left: 800px;
+}

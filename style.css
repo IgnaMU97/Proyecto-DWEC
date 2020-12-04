@@ -1,0 +1,139 @@
+@import url(//db.onlinewebfonts.com/c/c8e8fcd5d85d9b587022fe0a79809b73?family=Friz+Quadrata);
+*{
+    font-family: "Friz Quadrata";
+    background-color: rgb(223, 230, 238);
+}
+
+#logo{
+    width: 350px;
+    height: 350px;
+    padding-left: 39%;
+}
+
+#login{
+    margin-left: 93%;
+    margin-top: -250px;
+    padding-bottom: 130px;
+    font-size: 13px;
+}
+
+#elecRol{
+    padding-left: 46%;
+}
+
+.elecCampeon{
+    padding-left: 44%;
+}
+
+.roles{
+    padding-left: 27.7%;
+}
+#campeones{
+    padding-left: 11.2%;
+}
+
+#botonEnviar{
+    margin-top: 30px;
+    margin-left: 42.5%;
+    padding: 25px;
+    font-size: 25px;
+}
+
+#logoTwitter{
+    width: 30px;
+    height: 30px;
+}
+#logoInsta{
+    width: 30px;
+    height: 30px;
+}
+#logoLinkedin{
+    width: 30px;
+    height: 30px;
+}
+.dcha{
+    padding-left: 66%;
+    padding-bottom: 10px;
+    margin-bottom: 36px;
+    margin-top: -169px;
+}
+
+.dcha>a{
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+.dcha>img{
+    margin-right: 10px;
+}
+
+.izqda{
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-right: 70%;
+    text-align: center;
+}
+
+#champ{
+    font-size: 25px;
+    padding-left: 45%;
+    padding-top: 90px;
+}
+
+#champ>p{
+    padding-left: 5px;
+}
+
+#champ>img{
+    width: 120px;
+    height: 120px;
+}
+
+#rol{
+    font-size: 25px;
+    padding-left: 45%;
+    padding-top: 30px;
+}
+
+#rol>img{
+    width: 120px;
+    height: 120px;  
+}
+
+#rol>p{
+    margin-left: 40px;
+}
+
+#items{
+    font-size: 25px;
+    padding-left: 30.5%;
+    padding-top: 90px;
+}
+
+#items>p{
+    margin-left: 290px;
+    margin-top: -40px;
+}
+
+#items>img{
+    padding-right: 4%;
+    width: 90px;
+    height: 90px;
+}
+
+#runas{
+    font-size: 25px;
+    padding-left: 42%;
+    padding-top: 90px;
+}
+
+#runas>img{
+    padding-right: 4%;
+    width: 90px;
+    height: 90px;
+}
+#runas>p{
+    padding-left: 80px;
+    margin-top: -50px;
+}
