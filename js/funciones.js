@@ -13,7 +13,10 @@ function setRol(vRol){
 function rellenar(){
 
     //Array de Objetos
+    
 
+    /*La intención de estos array era utilizarlo para insertar objetos y runas aleatorios pero me han dado errores por todos lados a la hora de utilizarlos*/ 
+    
     var arrayItems = new Array(20);
 
     arrayItems[0]="<img id=\"Bastón de Arcángel\" src=\"img/items/arcangel.png\">";
@@ -63,7 +66,7 @@ function rellenar(){
     arrayItems=shuffleArray(arrayItems);
     
     var campeon="<p>Campeon</p><img src=\"img/champs/ahri.png\"></br></br>";
-    var rol = "<p>Rol</p><img src=\"img/mid.jpg\"></br></br>";
+    var rol = "<p>Rol</p><img src=\"img/roles/mid.jpg\"></br></br>";
     //var sItems = "<p>Items</p>"+arrayItems[0]+arrayItems[1]+arrayItems[2]+arrayItems[3]+arrayItems[4]"</br></br>";
     var sItems = "<p>Items</p><img id=\"Morellonomicón\" src=\"img/items/morelo.png\"><img id=\"Arcoscudo Inmortal\" src=\"img/items/qwer.png\"><img id=\"Eclipse\" src=\"img/items/eclipse.png\"><img id=\"Velo del Hada\" src=\"img/items/banshee.png\"><img id=\"Protocinturón Hextech\" src=\"img/items/protobelt.png\"></br></br>";
     //var sRunas = "<p>Runas</p>"+arrayRunas[0]+""+arrayRunas[1]+"";
@@ -76,7 +79,7 @@ function rellenar(){
 
 function rellenar2(){
     var campeon="<p>Campeon</p><img src=\"img/champs/kata.png\"></br></br>";
-    var rol = "<p>Rol</p><img src=\"img/top.jpg\"></br></br>";
+    var rol = "<p>Rol</p><img src=\"img/roles/top.jpg\"></br></br>";
     var sItems = "<p>Items</p><img src=\"img/items/luden.png\"><img src=\"img/items/botrk.png\"><img src=\"img/items/eclipse.png\"><img src=\"img/items/bc.png\"><img src=\"img/items/yelmo.png\"></br></br>";
     var sRunas = "<p>Runas</p><img src=\"img/runas/domination.png\"><img src=\"img/runas/sorcery.png\">";
     document.getElementById("champ").innerHTML = campeon;
@@ -87,7 +90,7 @@ function rellenar2(){
 
 function rellenar3(){
     var campeon="<p>Campeon</p><img src=\"img/champs/ori.png\"></br></br>";
-    var rol = "<p>Rol</p><img src=\"img/jgl.jpg\"></br></br>";
+    var rol = "<p>Rol</p><img src=\"img/roles/jgl.jpg\"></br></br>";
     var sItems = "<p>Items</p><img src=\"img/items/morelo.png\"><img src=\"img/items/ardent.png\"><img src=\"img/items/galeforce.png\"><img src=\"img/items/luden.png\"><img src=\"img/items/arcangel.png\"></br></br>";
     var sRunas = "<p>Runas</p><img src=\"img/runas/sorcery.png\"><img src=\"img/runas/precision.png\">";
     document.getElementById("champ").innerHTML = campeon;
